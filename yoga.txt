@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  background-image:url('https://img.freepik.com/premium-vector/hand-painted-background-violet-orange-colours_23-2148427578.jpg?w=2000');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  }
+  </style>
+<meta name="yoga" content="width=device-width, initial-scale=1.0">
+<img src="https://images.news18.com/ibnlive/uploads/2022/03/yoga-3-16484555003x2.jpg?impolicy=website&width=510&height=356.jpg" style="width:100%;">
+
+</head>
+<body>
+
+<h1>YOGA</h1>
+<p><big>Yoga is essentially a spiritual discipline based on an extremely subtle science, which focuses on bringing harmony between mind and body. It is an art and scince of healthy living. The word 'Yoga' is derived from the Sanskrit root 'Yuj', meaning 'to join' or 'to yoke' or 'to unite'.</big></p><br>
+<h1>BENIFITS OF YOGA</h1>
+<p><b>1.Yoga improves strength, balance and flexibility.<br>
+      2. Yoga helps with back pain relief.<br>
+      3. Yoga can ease arthritis symptoms.<br>
+      4. Yoga benefits heart health.<br>
+      6. Yoga can mean more energy and brighter moods.</b></p>
+ 
+     <head>
+        <base target="_top">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+       
+        <title>Registration Form </title>
+        
+            <link rel="icon" type="image/icon" href="icon2.png">
+
+    <style>
+              
+        h1{
+            text-align:center;
+            width:"100%";
+        }
+
+        
+        fieldset{
+            margin:auto;
+            border-top:20px solid #93aba7;
+            border-bottom:20px solid #93aba7;
+            width:500px; height:100%;
+            
+            border-radius:20px;
+            }
+   
+            
+            button[type=submit]:hover{
+                   background-color: #22f160;
+                 
+            
+                }
+                
+                 
+                    
+                    button[type=reset]:hover{
+                 background-color:#3179f6;
+                   
+                }
+
+            
+                *{
+               box-sizing:border-box;
+               border-radius: 5px;
+           
+            }
+
+
+            .form-main-heading{
+                   width:"100%";
+                   text-align:center;
+                   background-color: #fff;
+                   color: #333;
+                   border-top: 4px solid #49c1a2;
+                   border-radius: 15px;
+                                   
+                }
+
+
+                .form-grp{
+                             text-align:justify;
+                             color: rgb(233, 220, 220);
+                           
+                            
+                                                      
+                            }
+                
+
+                .parent-grp{
+                    color:rgb(233, 225, 214);
+                    text-decoration:underline;
+                }
+
+
+                .form-address{
+                    color:green;
+                     text-decoration:underline;
+                }
+
+               
+
+            body{
+                
+                font-family:Tahoma, sans-serif;
+                background:black;
+                color:brown;
+
+                }  
+    </style>
+    
+     
+    </head>
+
+<body style="width:100%";>
+    
+    <h4 style="text-align:left" width="100%;"></h4>
+
+    
+        <form action="backend.php">
+
+            
+            <div class="form-main-heading">
+            
+                <h1>Registration Form 0f Students for an Online TCS EXAM
+                    
+                </h1>
+           
+            <br>
+        </div>
+            <br>
+                <br>
+
+            <form>
+                 
+                <fieldset>
+                    <br>
+                         <br>
+                
+                 <div class="form-grp">
+                    
+                    <label for="nameofperson">Name:</label>
+                   
+                    <input type="text" id="nameofperson" name="nameofperson" value=" "><br><br>
+                
+                </div>
+                
+                <div class="form-grp">
+                    
+                    <label for="rollno.">Rollno.</label>
+                    
+                    <input type="text" id="roll-no." name="Rollno." value=" "><br><br>
+            <br>
+        </div>
+                 <div class="parent-grp">
+                    
+                    <label for="Parentdetails"> Parent Details: </label>
+                    
+                    </div>
+                
+            <br>
+                
+                <div class="form-grp">
+               
+                    <label for="fathersname"> Father's Name:</label>
+                  
+                    <input type="text" id="fathersname" name="Father's Name" size="10" value="">
+                  
+                  
+                  
+                     <label for="mothersname"> Mother's Name:</label>
+                
+                     <input type="text" id="mothersname" name="Mother's Name" size="10" value="">
+                </div>
+            <br>
+        <br>
+                
+        <div class="form-grp">
+                
+            <label for="Aadharnumber">Aadhar Number:</label>
+                <input type="text" id="aadharnumber" name="Aadhar Number" value=""><br>
+                    </div>
+
+                    <br>
+                <br>
+
+
+                    <div class="form-address">
+                        Address:
+                        <br>
+                    <br>
+                       
+                    <textarea rows="6" cols="60" name="address">
+                            
+                    </textarea>
+                        
+                    </div> <br><br>
+                    
+                    <div class="form-grp">
+                    
+                        <label for="Qualifications">Qualificatons:</label>
+                    
+                    <select id="qualifications">
+                        <option value="UG">UG</option>
+                        <option value="PG">PG</option>
+                        <option value="Phd">Phd</option>
+                        <option value="higherschool">Higher School</option>
+                        <option value="Kindergarden">Kindergarden</option>
+                        <option value="secondaryschool">
+                        secondaryschool</option>
+                        <option value="uneducated">Uneducated</option>
+                    </select>
+                        </div>   
+                        
+                        <br>
+                <br>             
+            
+            <div class="form-grp">
+                
+                <label for="courses">Courses Completed:</label>
+            
+            <select id="coursescompleted">
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="IT">IT</option>
+                <option value="Mech">Mech</option>
+                <option value="Civil">Civil</option>
+                <option value="Arts">Arts</option>
+            </select>
+            
+        </div>
+        <br>
+            <br>
+            
+            <div class="form-grp">
+               
+                <label for="Cgpa">Xth CGPA:</label>
+                <input type="text" id="cgpa" name="Xthcgpa" size="10" value=""><br>
+                
+                <label for="Cgpa">XIIth CGPA:</label>
+                <input type="text" id="cgpa" name="XIIthcgpa" size="10" value="">
+            
+            </div>
+                    
+            <br>
+        <br>
+              
+        <div class="form-grp">
+                Upload Your File/Resume:
+            <input type="file" id="myFile" name="filename">
+        </div>
+       
+        <br>
+    <br>
+        
+    <div class="form-grp">
+            Upload Your Photo:
+            <input type="file" id="myphoto" name="filename">
+        </div>
+        
+        <br>
+       
+     <br>
+                        
+           </fieldset>
+                 <br>
+            <br>
+        
+        </div>
+    
+    </div>
+           <center>
+          
+            <button type="submit" class="submit">Submit</button>
+          
+            <button type="reset" class="reset">Reset</button>
+      
+        </center>
+        
+        <br>
+    <br>
+           
+            
+     </form>
+
+
+</body>
+</html>
